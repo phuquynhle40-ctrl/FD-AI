@@ -1,0 +1,10 @@
+{
+  "name": "FD AI",
+  "version": "0.2.0",
+  "architecture": [
+    "router",
+    "tool_manager",
+    "module_manager",
+    "version_manager"
+  ]
+}

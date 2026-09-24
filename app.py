@@ -5,7 +5,7 @@ from src.module_manager.manager import ModuleManager
 from src.version_manager.manager import VersionManager
 
 def create_app():
-    app = Flask(__name__, template_folder="../../templates", static_folder="../../static")
+    app = Flask(__name__, template_folder="templates", static_folder="static")
 
     tool_manager = ToolManager()
     module_manager = ModuleManager()
